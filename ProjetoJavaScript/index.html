@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        function calcularMaiorIdade(idade){
+
+        return  (idade>= 18) ? "sim":"não"//(?) = operador ternario
+
+
+    }
+        //maiorIdade = calcularMaiorIdade(parseInt( window.prompt("Qual a maior idade")))
+        
+        meuNome = "Danilo jose barbosa castro" 
+        minhaIdade = calcularIdade(parseInt(window.prompt("Ano nascimento",1984)))  
+        nomeMae = "Angela Maria"
+        maeIdade = calcularIdade(parseInt( window.prompt("Ano nascimento Mãe",1969)))
+        
+        maiorIdade =  calcularMaiorIdade(minhaIdade)
+        maiorIdadeMae = calcularMaiorIdade(maeIdade)
+
+       // maiorIdadeMae = 18
+       // if(maeIdade>=18) {
+       //    maiorIdadeMae = "sim"
+       // } else {
+      //      maiorIdadeMae = "não"
+      //  } 
+
+    // console.log(typeof(meuNome))//Serve para informar qual tipo é String ou outro tipo.
+    //console.log(typeof(minhaIdade))
+      
+    console.log(`Maior Idade:${maiorIdade}`)
+    //console.log(`Maior Idade Mãe:${maiorIdadeMae}`)
+
+        console.log(`Idade:${minhaIdade}`)
+        console.log("Idade Mãe:"+maeIdade)
+        console.log("Nome:",meuNome)
+        console.log("Nome Mãe:"+nomeMae)
+    //console.log("danilo jose barbosa castro")
+    // console.log("Angela Maria")
+
+function calcularIdade(idade){// criando uma função
+    // corpo da função
+
+    return 2024 - idade
+}
+
+    </script>
+    
+</body>
+</html>
